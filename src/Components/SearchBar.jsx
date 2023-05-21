@@ -13,8 +13,9 @@ const SearchBar = ({ onSubmit }) => {
   };
 
   return (
-    <div>
+    <div className="search__bar">
       <form onSubmit={handleFormSubmit}>
+        <label> search for : </label>
         <input
           type="text"
           placeholder="search for images"

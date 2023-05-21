@@ -3,7 +3,7 @@ import ImageShow from "./ImageShow";
 
 const ImageList = ({ images }) => {
   return (
-    <div>
+    <div className="images">
       {images?.map((image) => (
         <ImageShow key={image.id} image={image} />
       ))}
