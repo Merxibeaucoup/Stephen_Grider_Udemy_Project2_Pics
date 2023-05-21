@@ -13,5 +13,5 @@ export const searchImages = async (input) => {
   });
 
   console.log(response.data.results);
-  return response;
+  return response.data.results;
 };
